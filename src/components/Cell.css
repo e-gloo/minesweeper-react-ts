@@ -1,0 +1,87 @@
+.cell {
+  background: rgb(230, 230, 230);
+  border: 1px solid rgb(230, 230, 230);
+  font-size: 34px;
+  font-weight: bold;
+  line-height: var(--cell-size);
+  height: var(--cell-size);
+  padding: 0;
+  text-align: center;
+  width: var(--cell-size);
+  min-width: var(--cell-size);
+  cursor: default;
+}
+
+.hidden-cell {
+  background: rgba(204, 204, 204, 0.836);
+  border: 1px solid rgb(170, 170, 170);
+  border-radius: 3px;
+  line-height: var(--cell-size);
+  height: var(--cell-size);
+  padding: 0;
+  text-align: center;
+  width: var(--cell-size);
+  min-width: var(--cell-size);
+  cursor: default;
+}
+
+.background-cell {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 25px;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+
+.flag-cell {
+  background-image: url("/flag.png");
+}
+
+.wrong-flag {
+  background-image: url("/wrong-flag.png");
+}
+
+.mine-cell {
+  background-image: url("/mine.png");
+}
+
+.clicked-mine {
+  background-color: rgb(170, 0, 0) !important;
+}
+
+.possibility-cell {
+  background-image: url("/possibility.png");
+}
+
+.value-1 {
+  color: #0000FF
+}
+
+.value-2 {
+  color: #008200
+}
+
+.value-3 {
+  color: #FF0000
+}
+
+.value-4 {
+  color: #000084
+}
+
+.value-5 {
+  color: brown
+}
+
+.value-6 {
+  color: aqua
+}
+
+.value-7 {
+  color: black
+}
+
+.value-8 {
+  color: lightgray
+}
